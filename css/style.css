@@ -167,7 +167,7 @@ h1, h2, h3 {
 .clouds {
     width: 100%;
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -176,7 +176,7 @@ h1, h2, h3 {
 }
 
 .cloudsSvg {
-    height: 200px;
+    height: 150px;
 }
 
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
