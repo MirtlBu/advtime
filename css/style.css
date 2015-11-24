@@ -14,7 +14,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'GothamRoundedMedium', Helvetica, Arial, sans-serif;
-    background: red;
 }
 
 input, textarea, button {
@@ -72,7 +71,7 @@ h1, h2, h3 {
 .welcome {
     min-height: 100%;
     position: relative;
-    background-color: #00c9d5;
+    background-color: #97d3c2;
     background-image: url(../images/bg_welcome.svg);
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -98,7 +97,6 @@ h1, h2, h3 {
 
 .welcome__top {
     width: 100%;
-    position: absolute;
     font-size: 0;
 }
 
@@ -176,7 +174,13 @@ h1, h2, h3 {
 }
 
 .cloudsSvg {
-    height: 150px;
+    height: 250px;
+}
+
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+    .cloudsSvg {
+        height: 150px;
+    }
 }
 
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -225,13 +229,14 @@ h1, h2, h3 {
     }
 
     .welcome__char {
-        position: relative;
+
         height: 200px;
     }
 
     .welcome__char-iceking {
+        position: absolute;
         z-index: -1;
-        right: -10%;
+        right: 20%;
     }
 
     .clouds {
