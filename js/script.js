@@ -71,3 +71,8 @@ function Randomaizer(num, floor) {
 
 initialise();
 
+$(window).resize(function() {
+    svg.remove();
+    initialise();
+});
+
