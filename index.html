@@ -3,12 +3,13 @@
     <head>
         <title>Title</title>
         <link rel="stylesheet" href="css/animate.css" type="text/css">
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="welcome mb_table">
+        <div class="screen welcome mb_table">
             <div class="welcome__top mb_table-row">
                 <div class="container">
                     <div class="logo-container">
@@ -20,7 +21,7 @@
                                 <a class="nav__link" href="#">About</a>
                             </li>
                             <li class="nav__item">
-                                <a class="nav__link" href="#">Features</a>
+                                <a class="nav__link" href="#features">Features</a>
                             </li>
                             <li class="nav__item">
                                 <a class="nav__link" href="#">Characters</a>
@@ -36,7 +37,7 @@
                 <div class="mb_table-cell">
                     <div class="container welcome__info">
                         <h1 class="welcome__header header">C'mon grab your&nbsp;friends</h1>
-                        <div class="welcome__text">Adventure Time follows the adventures of a boy, Finn the Human, and his best friend and adoptive brother Jake the Dog.</div>
+                        <div class="welcome__text">Adventure Time follows the&nbsp;adventures of&nbsp;a&nbsp;boy, Finn&nbsp;the&nbsp;Human, and&nbsp;his best friend and&nbsp;adoptive brother Jake&nbsp;the&nbsp;Dog.</div>
                         <a class="welcome__button button" href="#">Learn more</a>
                     </div>
                 </div>
@@ -48,10 +49,164 @@
             </div>
             <div class="clouds"></div>
         </div>
+        <div class="screen features" id="features">
+            <div class="container">
+                <h2 class="header features__header">What you should know about Adventure time</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <div class="features__circle">
+                            <img class="features__image" src="images/icon-watch.png">
+                        </div>
+                        <div class="features__text">Over 3&nbsp;million views on the highest-rated episodes.</div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__circle">
+                            <img class="features__image" src="images/icon-fan.png">
+                        </div>
+                        <div class="features__text">Billions fans all over the&nbsp;world.</div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__circle">
+                            <img class="features__image" src="images/icon-award.png">
+                        </div>
+                        <div class="features__text">About 30&nbsp;TV awards and&nbsp;nominations.</div>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__circle">
+                            <img class="features__image" src="images/icon-tv.png">
+                        </div>
+                        <div class="features__text">7 seasons of pure imagination and silly humor.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="screen main-characters">
+            <div class="container">
+                <h2 class="header">You can be anyone you&nbsp;want...</h2>
+                <div class="fotorama"  data-width="100%" data-maxheight="80%" data-minheight="350" data-position="50% 50%">
+                    <img src="images/char-finn.png" data-caption="Finn">
+                    <img src="images/char-jake.png" data-caption="Jake">
+                    <img src="images/char-bmo.png" data-caption="BMO">
+                    <img src="images/char-bubble.png" data-caption="Princess Bubblegum">
+                    <img src="images/char-iceking.png" data-caption="Ice King">
+                    <img src="images/char-marce.png" data-caption="Marceline">
+                    <img src="images/char-flame.png" data-caption="Flame Princess">
+                    <img src="images/char-lumpy.png" data-caption="Lumpy Space Princess">
+                </div>
+            </div>
+        </div>
+        <div class="other-characters">
+            <div class="container">
+                <h2 class="header">...not even the main character</h2>
+                <ul class="other-characters__list">
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-gunter.jpg">
+                        </div>
+                        <div class="other-characters__title">Gunter</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-lady.jpg">
+                        </div>
+                        <div class="other-characters__title">Lady Rainicorn</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-lemon.jpg">
+                        </div>
+                        <div class="other-characters__title">Earl of Lemongrab</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-tree.jpg">
+                        </div>
+                        <div class="other-characters__title">Tree Trunks</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-cupcake.jpg">
+                        </div>
+                        <div class="other-characters__title">Mr. Cupcake</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-abadeer.jpg">
+                        </div>
+                        <div class="other-characters__title">Hunson Abadeer</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-pepper.jpg">
+                        </div>
+                        <div class="other-characters__title">Peppermint Butler</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-leech.jpg">
+                        </div>
+                        <div class="other-characters__title">Leech</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-cinnamon.jpg">
+                        </div>
+                        <div class="other-characters__title">Cinnamon Bun</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-magic.jpg">
+                        </div>
+                        <div class="other-characters__title">Magic Man</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-wild.jpg">
+                        </div>
+                        <div class="other-characters__title">Wildberry Princess</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-snail.jpg">
+                        </div>
+                        <div class="other-characters__title">Snail</div>
+                    </li>
+                    <li class="other-characters__item wow fadeIn" data-wow-delay=".5s">
+                        <div class="other-characters__circle">
+                            <img src="images/other-ricardio.jpg">
+                        </div>
+                        <div class="other-characters__title">Ricardio</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="container">
+                <form class="form">
+                    <h2 class="header subscribe__header">Get our news!</h2>
+                    <input class="input" type="email">
+                    <button class="button" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="places">
+            <h2 class="places__caption">You can go wherever you&nbsp;want</h2>
+            <div class="fotorama" data-fit="cover" data-width="100%" data-maxheight="100%" data-minheight="480" data-position="50% 50%">
+                <img src="images/places-tree.jpg" data-caption="Tree Fort">
+                <img src="images/places-candy.jpg" data-caption="Candy Kingdom">
+                <img src="images/places-ice.jpg" data-caption="Ice Kingdom">
+                <img src="images/places-fire.jpg" data-caption="Fire Kingdom">
+                <img src="images/places-night.jpg" data-caption="Nightosphere">
+                <img src="images/places-lumpy.jpg" data-caption="Lumpy spase">
+                <img src="images/places-lemon.jpg" data-caption="Castle Lemongrab">
+                <img src="images/places-berries.jpg" data-caption="Wildberry Kingdom">
+            </div>
+        </div> -->
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/snap.svg-min.js" type="text/javascript"></script>
         <script src="js/wow.min.js" type="text/javascript"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
         <script src="js/script.js" type="text/javascript"></script>
 
     </body>

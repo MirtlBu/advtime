@@ -22,12 +22,12 @@ function cloudAnim(oldGroup) {
         currentGroup.transform(coords.positive);
         currentGroup.animate({
                 transform: coords.zero
-            }, 50000, function() {
+            }, 30000, function() {
                 cloudAnim(currentGroup);
             });
         oldGroup.animate({
             transform: coords.negative
-        }, 50000, function() {
+        }, 30000, function() {
             oldGroup.remove();
         });
     }
